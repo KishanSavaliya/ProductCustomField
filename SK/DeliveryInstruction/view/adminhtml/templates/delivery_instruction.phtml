@@ -1,0 +1,7 @@
+<?php
+$_item = $block->getItem();
+$deliveryInstruction = $_item->getDeliveryInstruction();
+
+if (!empty($deliveryInstruction)) {
+    echo $_item->getDeliveryInstruction();
+}
